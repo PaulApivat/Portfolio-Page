@@ -95,6 +95,7 @@ p {
 	margin: 0 auto;
 	height: 1200px;
 	display: flex;
+	background-color: indianred
 }
 
 .left {
