@@ -67,3 +67,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /********** Portfolio Page CSS ********/
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;  /* how diifferent from 10px ? */
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 2rem;
+}
+
+.container {
+	border: 1px solid green;
+	width: 100%;
+	/* max-width: 800px; */
+	margin: 0 auto;
+	height: 1200px;
+	display: flex;
+}
+
+.left {
+	border: 1px solid red;
+	width: 50%;
+	height: 1200px;
+	max-width: 800px;
+	/*height position fixed*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	border: 1px solid orange;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.title h1 {
+	align-self: center;
+}
+
+.social {
+	border: 1px solid purple;
+	height: 100px;
+}
+
+.tech {
+	border: 1px solid goldenrod;
+	height: 100px;
+}
+
+.contact {
+	border: 1px solid black;
+	height: 100px;
+}
+
+.right {
+	border: 1px solid blue;
+	width: 50%;
+	height: 2000px;
+	/*height position auto?*/
+}
+
+.project {
+	border: 3px dashed black;
+	height: 500px;
+	margin: 20px;
+	background-color: ghostwhite;
+}
