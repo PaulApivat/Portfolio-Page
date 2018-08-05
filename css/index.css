@@ -85,28 +85,35 @@ h3 {
 }
 
 p {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
-.container {
+body {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+}
+
+.container-left {
 	border: 1px solid green;
 	width: 100%;
-	/* max-width: 800px; */
+	max-width: 600px;
 	margin: 0 auto;
-	height: 1200px;
+	height: 800px;
 	display: flex;
-	background-color: indianred
+	background-color: indianred;
 }
 
 .left {
 	border: 1px solid red;
 	width: 50%;
-	height: 1200px;
-	max-width: 400px;
+	height: 800px;
+	max-width: 600px;
 	/*height position fixed*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	position: fixed;
 }
 
 .title {
@@ -114,6 +121,9 @@ p {
 	height: 200px;
 	display: flex;
 	flex-direction: column;
+	padding: 10px;
+	background-color: orange;
+	width: 100%;
 }
 
 .title h1 {
@@ -124,12 +134,12 @@ p {
 	border: 1px solid purple;
 	height: 100px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .social img {
-	width: 10%;
-	height: 50px;
+	width: 5%;
+	height: 25px;
 }
 
 .tech {
@@ -142,10 +152,15 @@ p {
 	height: 100px;
 }
 
+.container-right {
+
+}
+
 .right {
 	border: 1px solid blue;
 	width: 50%;
 	height: 2000px;
+	background-color: limegreen;
 	/*height position auto?*/
 }
 
