@@ -95,7 +95,7 @@ body {
 }
 
 .container-left {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	width: 100%;
 	max-width: 600px;   /* Has a max-width */
 	margin: 0 auto;
@@ -157,11 +157,11 @@ body {
 
 .container-right {
 	width: 100%;      /* Does not have a max-width */
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .right {
-	border: 3px solid blue;
+	/* border: 3px solid blue; */
 	width: 80%;
 	height: 2000px;
 	padding: 0 0 0 5%;
