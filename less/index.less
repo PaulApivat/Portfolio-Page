@@ -1,0 +1,219 @@
+//Import less files here
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family:  'Open Sans', sans-serif; /*'Titillium Web', sans-serif; */
+}
+
+h1, h2, h3, h4, h5 {
+    font-family:  'Montserrat', sans-serif; /*'Titillium Web', sans-serif;*/    
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/********** Portfolio Page CSS ********/
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;  /* how diifferent from 10px ? */
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+body {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+}
+
+.container-left {
+	/* border: 1px solid green; */
+	width: 100%;
+	max-width: 600px;   /* Has a max-width */
+	margin: 0 auto;
+	height: 900px;
+	display: flex;
+	/* background-color: indianred; */
+}
+
+.left {
+	/* border: 1px solid red; */
+	width: 50%;
+	height: 900px;
+	max-width: 600px;
+	/*height position fixed*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: fixed;
+}
+
+.title {
+	/* border: 1px solid orange; */
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 7% 0 7%;
+	/* background-color: orange; */
+	width: 100%;
+}
+
+.title h1 {
+	align-self: center;
+}
+
+.social {
+	/* border: 1px solid purple; */
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0 0 0;
+}
+
+.social img {
+	width: 5%;
+	height: 25px;
+}
+
+.tech {
+	/* border: 1px solid goldenrod; */
+	height: 100px;
+	padding: 20px 0 0 7%;
+}
+
+.contact {
+	/* border: 1px solid black; */
+	height: 100px;
+	padding: 20px 0 0 7%;
+}
+
+.container-right {
+	width: 100%;      /* Does not have a max-width */
+	/* border: 1px solid red; */
+}
+
+.right {
+	/* border: 3px solid blue; */
+	width: 80%;
+	height: 2000px;
+	padding: 0 0 0 5%;
+	/* background-color: limegreen; */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.box {
+    width: 20%;
+    height: 300px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.box1{
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
